@@ -1,0 +1,23 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.heading {
+  @include flex-col(1rem);
+  text-align: center;
+  color: $color-primary;
+  margin-bottom: 8rem;
+
+  &__title {
+    font-size: 4.4rem;
+    font-weight: $font-normal;
+    font-family: $font-secondary;
+    letter-spacing: -0.044em;
+  }
+
+  &__subtitle {
+    max-width: 60rem;
+    font-size: 2.1rem;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+}
