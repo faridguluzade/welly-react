@@ -1,5 +1,7 @@
+import Navigation from "../ui/Navigation/Navigation";
+
 function Collections() {
-  return <div>HELLO COLLECTIONS</div>;
+  return <Navigation />;
 }
 
 export default Collections;

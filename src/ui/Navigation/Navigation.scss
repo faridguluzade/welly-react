@@ -1,0 +1,75 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+// -Font sizes (px):
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+// Spacing system (px)
+// 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128;
+
+.nav {
+  @include flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+  height: 10rem;
+
+  &__list {
+    @include flex(4.8rem);
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: $color-primary-light;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: color $main-transition;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: $color-secondary;
+  }
+
+  &__logo-box {
+    background: transparent url(../../assets/icons/logo.svg) no-repeat center
+      center;
+    background-size: 128.4903px 52px;
+    width: 128.4903px;
+    height: 52px;
+  }
+
+  &__future-list {
+    @include flex(4.8rem);
+  }
+
+  &__search-box {
+    @include flex(1.2rem);
+    border-bottom: 1px solid $color-primary;
+    padding-bottom: 8px;
+  }
+
+  &__search {
+    color: $color-primary;
+    font-weight: $font-medium;
+    width: 60%;
+  }
+
+  &__search::placeholder {
+    color: $color-primary;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: $font-medium;
+    letter-spacing: 1px;
+  }
+
+  &__user-icon {
+    cursor: pointer;
+    fill: $color-primary-light;
+    transition: fill $main-transition;
+  }
+
+  &__user-icon:hover {
+    fill: $color-secondary;
+  }
+}
