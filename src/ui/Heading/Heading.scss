@@ -5,10 +5,10 @@
   @include flex-col(1rem);
   text-align: center;
   color: $color-primary;
-  margin-bottom: 8rem;
+  margin: 8rem 0;
 
   &__title {
-    font-size: 4.4rem;
+    font-size: 3.8rem;
     font-weight: $font-normal;
     font-family: $font-secondary;
     letter-spacing: -0.044em;

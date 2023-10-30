@@ -2,27 +2,44 @@ import { BasketIcon } from "../../../assets/icons/icons";
 
 import "./CollectionItem.scss";
 
-function CollectionItem() {
+function CollectionItem({ item }) {
+  const {
+    id,
+    name,
+    description,
+    imageFront,
+    imageBack,
+    regularPrice,
+    salePrice,
+    onSale,
+    soldOut,
+  } = item;
   return (
     <div className="collection">
       <figure className="collection__photo-box">
         <img
-          src="https://www.getwelly.com/cdn/shop/products/camping_thumb_bceec392-ee79-46d0-bc00-e3faf7345864_720x.jpg?v=1646347525"
+          src={imageFront}
           alt=""
           className="collection__photo collection__photo--front"
         />
         <img
-          src="https://www.getwelly.com/cdn/shop/products/camping_rollover_720x.jpg?v=1646347525"
+          src={imageBack}
           alt=""
           className="collection__photo collection__photo--rear"
         />
       </figure>
       <div className="collection__content-box">
-        <h3 className="collection__title">Camping Bravery Badges</h3>
-        <p className="collection__subtitle">Assorted Flex Fabric Bandages</p>
+        <h3 className="collection__name">{name}</h3>
+        <p className="collection__desc">{description}</p>
         <div className="collection__price-box">
-          <span className="collection__sale-price">7.99</span>
-          <span className="collection__regular-price">7.99</span>
+          {onSale ? (
+            <>
+              <span className="collection__regular-price">{regularPrice}</span>
+              <span className="collection__sale-price">{salePrice}</span>
+            </>
+          ) : (
+            <span className="collection__regular-price">{regularPrice}</span>
+          )}
         </div>
 
         <button className="collection__btn">

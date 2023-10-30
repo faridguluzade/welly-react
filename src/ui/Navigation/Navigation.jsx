@@ -1,6 +1,6 @@
 import SearchBar from "../SearchBar/SearchBar";
 
-import { SearchIcon, UserIcon } from "../../assets/icons/icons";
+import { BasketIcon, UserIcon } from "../../assets/icons/icons";
 
 import "./Navigation.scss";
 
@@ -28,15 +28,15 @@ function Navigation() {
       <figure className="nav__logo-box"></figure>
 
       <ul className="nav__future-list">
-        <li className="nav__search-box">
-          <SearchIcon />
-          <input type="text" className="nav__search" placeholder="Search" />
+        <li>
+          <SearchBar />
         </li>
         <li>
           <UserIcon className="nav__user-icon" />
         </li>
-        <li>
-          <SearchBar />
+        <li className="nav__basket">
+          <BasketIcon className="nav__basket-icon" />
+          <span className="nav__cart-quantity">1</span>
         </li>
       </ul>
     </nav>

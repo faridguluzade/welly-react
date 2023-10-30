@@ -2,13 +2,14 @@ import CollectionItem from "../CollectionItem/CollectionItem";
 
 import "./CollectionList.scss";
 
-function CollectionList() {
+// eslint-disable-next-line react/prop-types
+function CollectionList({ items }) {
+  console.log(items);
   return (
     <div className="container collection-list">
-      <CollectionItem />
-      <CollectionItem />
-      <CollectionItem />
-      <CollectionItem />
+      {items.map((item) => (
+        <CollectionItem key={item.id} item={item} />
+      ))}
     </div>
   );
 }

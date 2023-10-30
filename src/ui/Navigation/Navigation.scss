@@ -41,28 +41,6 @@
     @include flex(4.8rem);
   }
 
-  &__search-box {
-    @include flex(1.2rem);
-    border-bottom: 1px solid $color-primary;
-    padding-bottom: 8px;
-  }
-
-  &__search {
-    color: $color-primary;
-    font-weight: $font-medium;
-    width: 60%;
-  }
-
-  &__search::placeholder {
-    color: $color-primary;
-    text-transform: uppercase;
-    font-family: $font-primary;
-    font-size: 1.1rem;
-    line-height: 1.5;
-    font-weight: $font-medium;
-    letter-spacing: 1px;
-  }
-
   &__user-icon {
     cursor: pointer;
     fill: $color-primary-light;
@@ -71,5 +49,32 @@
 
   &__user-icon:hover {
     fill: $color-secondary;
+  }
+
+  &__basket {
+    position: relative;
+  }
+
+  &__basket-icon {
+    cursor: pointer;
+    fill: $color-primary-light;
+    transition: fill $main-transition;
+
+    &:hover {
+      fill: $color-secondary;
+    }
+  }
+
+  &__cart-quantity {
+    font-size: 1rem;
+    color: $color-white;
+    background-color: $color-primary-light;
+    padding: 2px 6px;
+    border-radius: 100%;
+
+    position: absolute;
+    bottom: -2px;
+    left: 11px;
+    cursor: pointer;
   }
 }

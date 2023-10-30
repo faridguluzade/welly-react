@@ -1,27 +1,24 @@
 @import "../../scss/variables";
+@import "../../scss/mixins";
 
 .search {
-  position: relative;
+  @include flex(1.2rem);
+  border-bottom: 1px solid $color-primary;
+  padding-bottom: 8px;
 
-  &__basket-icon {
-    cursor: pointer;
-    fill: $color-primary-light;
-    transition: fill $main-transition;
+  &__input {
+    color: $color-primary;
+    font-weight: $font-medium;
+    width: 60%;
   }
 
-  &__basket-icon:hover {
-    fill: $color-secondary;
-  }
-
-  &__cart-quantity {
-    font-size: 1rem;
-    color: $color-white;
-    background-color: $color-primary-light;
-    padding: 2px 6px;
-    border-radius: 100%;
-
-    position: absolute;
-    bottom: -2px;
-    left: 11px;
+  &__input::placeholder {
+    color: $color-primary;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: $font-medium;
+    letter-spacing: 1px;
   }
 }

@@ -10,15 +10,6 @@
   color: $color-primary;
   @include flex-col(2.4rem);
 
-  &:hover .collection__photo--rear {
-    opacity: 1;
-    z-index: 0;
-  }
-
-  &:hover .collection__photo--front {
-    transform: scale(1.05);
-  }
-
   &__photo-box {
     width: 100%;
     overflow: hidden;
@@ -28,15 +19,10 @@
 
   &__photo {
     width: 100%;
-  }
-
-  &__photo--front {
-    transition: all 0.4s linear;
+    transition: all 0.5s linear;
   }
 
   &__photo--rear {
-    transition: all 0.7s linear;
-
     opacity: 0;
     position: absolute;
     top: 0;
@@ -44,17 +30,26 @@
     z-index: -1;
   }
 
+  &:hover &__photo--front {
+    transform: scale(1.05);
+  }
+
+  &:hover &__photo--rear {
+    opacity: 1;
+    z-index: 0;
+  }
+
   &__content-box {
     @include flex-col(1.6rem);
     text-align: center;
   }
 
-  &__title {
+  &__name {
     font-size: 2.1rem;
     font-weight: $font-normal;
   }
 
-  &__subtitle {
+  &__desc {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 0.13rem;
