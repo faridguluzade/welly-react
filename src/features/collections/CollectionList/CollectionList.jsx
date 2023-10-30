@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import CollectionItem from "../CollectionItem/CollectionItem";
 
 import "./CollectionList.scss";

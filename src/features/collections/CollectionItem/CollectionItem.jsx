@@ -1,10 +1,10 @@
+/* eslint-disable react/prop-types */
 import { BasketIcon } from "../../../assets/icons/icons";
 
 import "./CollectionItem.scss";
 
 function CollectionItem({ item }) {
   const {
-    id,
     name,
     description,
     imageFront,
@@ -12,7 +12,6 @@ function CollectionItem({ item }) {
     regularPrice,
     salePrice,
     onSale,
-    soldOut,
   } = item;
   return (
     <div className="collection">
@@ -34,8 +33,8 @@ function CollectionItem({ item }) {
         <div className="collection__price-box">
           {onSale ? (
             <>
-              <span className="collection__regular-price">{regularPrice}</span>
-              <span className="collection__sale-price">{salePrice}</span>
+              <span className="collection__sale-price">{regularPrice}</span>
+              <span className="collection__regular-price">{salePrice}</span>
             </>
           ) : (
             <span className="collection__regular-price">{regularPrice}</span>

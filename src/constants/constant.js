@@ -29,7 +29,7 @@ export const DUMMY_COLLECTIONS = [
         imageFront:
           "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-thumb_720x.jpg?v=1670528422",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/WLY1111…e83c-4909-a3ac-8c893af6b4d3_720x.jpg?v=1677506243",
+          "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-overlay_92353a1d-e83c-4909-a3ac-8c893af6b4d3_720x.jpg?v=1677506243",
       },
       {
         id: 3,
@@ -107,7 +107,7 @@ export const DUMMY_COLLECTIONS = [
         imageFront:
           "https://www.getwelly.com/cdn/shop/products/1061_FRONT_1720x.jpg?v=1647526029",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/IC_Spac…d14-4e22-99f5-3ffc58d05457_1720x.jpg?v=1647531757",
+          "https://www.getwelly.com/cdn/shop/products/IC_Space_overview1_view_05d6dbc8-df00-4c1f-8c64-bedee76515b9_720x.jpg?v=1647531278",
       },
       {
         id: 9,
@@ -120,7 +120,7 @@ export const DUMMY_COLLECTIONS = [
         imageFront:
           "https://www.getwelly.com/cdn/shop/products/northern-lights-handy-bandies-thumb_720x.jpg?v=1674852325",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/norther…ights-handy-bandies-overlay_720x.jpg?v=1674852325",
+          "https://www.getwelly.com/cdn/shop/products/northern-lights-handy-bandies-overlay_720x.jpg?v=1674852325",
       },
       {
         id: 10,
@@ -133,7 +133,7 @@ export const DUMMY_COLLECTIONS = [
         imageFront:
           "https://www.getwelly.com/cdn/shop/products/IC_Jellyfish-thumb_720x.jpg?v=1652210096",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/IC_Jell…3666-44e1-95c8-11abbd2674c4_720x.jpg?v=1652210096",
+          "https://www.getwelly.com/cdn/shop/products/IC_Jellyfish_overview1_view_88d2dcea-3666-44e1-95c8-11abbd2674c4_720x.jpg?v=1652210096",
       },
       {
         id: 11,
@@ -144,7 +144,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/biggie_…88fb-4ac1-9e29-0b889e115f2c_720x.jpg?v=1646668029",
+          "https://www.getwelly.com/cdn/shop/products/biggie_face_saver_front_1720x.jpg?v=1646668029",
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/biggie_face_saver_rollover_720x.jpg?v=1646670748",
       },
@@ -157,9 +157,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/files/IC_ClearSp…5a4d-4e1c-9585-be0384b0217c_720x.jpg?v=1691083759",
+          "https://www.getwelly.com/cdn/shop/files/IC_ClearSpot_top_view-cosmo_1720x.jpg?v=1691083759",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/files/WE_ClearSp…f7ee-4df4-87a0-4008584eb6c5_720x.jpg?v=1691083759",
+          "https://www.getwelly.com/cdn/shop/files/WE_ClearSpot_Hero_8ccdf561-f7ee-4df4-87a0-4008584eb6c5_720x.jpg?v=1691083759",
       },
       {
         id: 13,
@@ -170,9 +170,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/floral-…rland-bravery-badges-thumb1_720x.jpg?v=1674852228",
+          "https://www.getwelly.com/cdn/shop/products/floral-wonderland-bravery-badges-thumb1_720x.jpg?v=1674852228",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/floral-…land-bravery-badges-overlay_720x.jpg?v=1674852228",
+          "https://www.getwelly.com/cdn/shop/products/floral-wonderland-bravery-badges-overlay_720x.jpg?v=1674852228",
       },
       {
         id: 14,
@@ -183,7 +183,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/dinosau…ad7e-43ed-989a-3133bb957ecd_720x.jpg?v=1646346830",
+          "https://www.getwelly.com/cdn/shop/products/dinosaur_thumb_74270587-ad7e-43ed-989a-3133bb957ecd_720x.jpg?v=1646346830",
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/dinosaur_rollover_720x.jpg?v=1646346830",
       },
@@ -196,8 +196,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: true,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/Welly_2…4334-4396-8124-f1a5b66f1047_720x.jpg?v=1631125465",
-
+          "https://www.getwelly.com/cdn/shop/products/Welly_2020_FullSize_Llama_thumb_74076129-4334-4396-8124-f1a5b66f1047_720x.jpg?v=1631125465",
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/Welly_2020_Exploded_Llama_720x.jpg?v=1631125465",
       },
@@ -210,7 +209,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/1071_FR…e577-417e-bb86-6b56577abcbe_720x.jpg?v=1647526295",
+          "https://www.getwelly.com/cdn/shop/products/1071_FRONT_1440x_8150dce1-e577-417e-bb86-6b56577abcbe_720x.jpg?v=1647526295",
 
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/Welly_2021_Exploded_Ice_Cream_720x.jpg?v=1647526295",
@@ -224,10 +223,10 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: true,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/1007_FR…c3a1-48fa-ab45-502a244b2db7_720x.jpg?v=1656452402",
+          "https://www.getwelly.com/cdn/shop/products/1007_FRONT_1440x_6ee88eb7-c3a1-48fa-ab45-502a244b2db7_720x.jpg?v=1656452402",
 
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/WE_Fing…dedf-4738-8c69-c34f486f02b3_720x.jpg?v=1656452402",
+          "https://www.getwelly.com/cdn/shop/products/WE_Finger_and_Toe_Hero_a94fd028-dedf-4738-8c69-c34f486f02b3_720x.jpg?v=1656452402",
       },
       {
         id: 18,
@@ -238,7 +237,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: true,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/1004_FR…a0e8-46e4-8645-3405ed0319c8_720x.jpg?v=1649364142",
+          "https://www.getwelly.com/cdn/shop/products/1004_FRONT_1440x_f3df0578-a0e8-46e4-8645-3405ed0319c8_720x.jpg?v=1649364142",
 
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/orange-exploded_720x.jpg?v=1649364142",
@@ -252,7 +251,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: true,
         soldOut: true,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/1016_FR…3d73-4c8c-8e92-5f49646b15c8_720x.jpg?v=1647526480",
+          "https://www.getwelly.com/cdn/shop/products/1016_FRONT_1440x_86680646-3d73-4c8c-8e92-5f49646b15c8_720x.jpg?v=1647526480",
 
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/WE_Monster_Hero_720x.jpg?v=1647526579",
@@ -266,7 +265,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: true,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/1062_FR…0fec-4fc9-a201-7cf74eff5fa3_720x.jpg?v=1656452532",
+          "https://www.getwelly.com/cdn/shop/products/1062_FRONT_1440x_f77cc95b-0fec-4fc9-a201-7cf74eff5fa3_720x.jpg?v=1656452532",
 
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/veggie-hero_720x.jpg?v=1656452532",
@@ -280,7 +279,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: true,
         soldOut: true,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/IC_Wate…05f0-4dc4-90ce-f19bcde94f55_720x.jpg?v=1650895497",
+          "https://www.getwelly.com/cdn/shop/products/IC_Waterproof-thumb_ed95403d-05f0-4dc4-90ce-f19bcde94f55_720x.jpg?v=1650895497",
 
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/IC_Waterproof-overlay_720x.jpg?v=1650895497",
@@ -301,9 +300,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1106…8b4d-42f6-8665-75bdc6c53a9b_720x.jpg?v=1669851232",
+          "https://www.getwelly.com/cdn/shop/products/WLY1101_ECZEMA-7oz-thumb_720x.jpg?v=1669848890",
         imageBack:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1106…YDRA_BL-16oz_carousel-hands_720x.jpg?v=1670616826",
+          "https://www.getwelly.com/cdn/shop/products/WLY1101_ECZEMA-7oz-carousel-hands_720x.jpg?v=1670613996",
       },
       {
         id: 2,
@@ -315,9 +314,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/WLY1106…8b4d-42f6-8665-75bdc6c53a9b_720x.jpg?v=1669851232",
+          "https://www.getwelly.com/cdn/shop/products/WLY1106_DAILYHYDRA_BL-16oz_thumb_7ced8723-8b4d-42f6-8665-75bdc6c53a9b_720x.jpg?v=1669851232",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/WLY1106…YDRA_BL-16oz_carousel-hands_720x.jpg?v=1670616826",
+          "https://www.getwelly.com/cdn/shop/products/WLY1106_DAILYHYDRA_BL-16oz_carousel-hands_720x.jpg?v=1670616826",
       },
       {
         id: 3,
@@ -329,9 +328,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1105…5312-46b0-b327-95d3933c3ad8_720x.jpg?v=1669851144",
+          "https://www.getwelly.com/cdn/shop/products/WLY1105_BODYACNE_SPRAY-7oz_thumb_6e477b9d-5312-46b0-b327-95d3933c3ad8_720x.jpg?v=1669851144",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/WLY1105…NE_SPRAY-7oz_carousel-hands_720x.jpg?v=1670614514",
+          "https://www.getwelly.com/cdn/shop/products/WLY1105_BODYACNE_SPRAY-7oz_carousel-hands_720x.jpg?v=1670614514",
       },
       {
         id: 4,
@@ -342,9 +341,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1102…1148-4783-973d-8faf2ea69a0c_720x.jpg?v=1669851004",
+          "https://www.getwelly.com/cdn/shop/products/WLY1102_ROUGHBUMPY_BL-7oz_thumb_847d1d99-1148-4783-973d-8faf2ea69a0c_720x.jpg?v=1669851004",
         imageBack:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1102…BUMPY_BL-7oz_carousel-hands_720x.jpg?v=1670616726",
+          "	https://www.getwelly.com/cdn/shop/products/WLY1102_ROUGHBUMPY_BL-7oz_carousel-hands_720x.jpg?v=1670616726",
       },
       {
         id: 5,
@@ -355,9 +354,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1104…272b-469a-bfb4-0170dd85fcff_720x.jpg?v=1669848596",
+          "https://www.getwelly.com/cdn/shop/products/WLY1104-FIRMING_BC-7oz_thumb_b2cde6dc-272b-469a-bfb4-0170dd85fcff_720x.jpg?v=1669848596",
         imageBack:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1104…RMING_BC-7oz_carousel-hands_720x.jpg?v=1670616791",
+          "https://www.getwelly.com/cdn/shop/products/WLY1104-FIRMING_BC-7oz_carousel-hands_720x.jpg?v=1670616791",
       },
       {
         id: 6,
@@ -368,9 +367,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1103…ea74-4168-82e4-145c6fbd4a12_720x.jpg?v=1670012842",
+          "https://www.getwelly.com/cdn/shop/products/WLY1103_DRYITCHY_BL-7oz_thumb_5ddeb904-ea74-4168-82e4-145c6fbd4a12_720x.jpg?v=1670012842",
         imageBack:
-          "	https://www.getwelly.com/cdn/shop/products/WLY1103…ITCHY_BL-7oz_carousel-hands_720x.jpg?v=1670616757",
+          "https://www.getwelly.com/cdn/shop/products/WLY1103_DRYITCHY_BL-7oz_carousel-hands_720x.jpg?v=1670616757",
       },
     ],
   },
@@ -388,7 +387,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/files/clear-spot…ce6d-4931-a98b-4fe01c1a6ec4_720x.jpg?v=1686692795",
+          "https://www.getwelly.com/cdn/shop/files/clear-spot-refill-thumb-cosmo_b79fa986-ce6d-4931-a98b-4fe01c1a6ec4_720x.jpg?v=1686692795",
         imageBack:
           "	https://www.getwelly.com/cdn/shop/products/clear-spot-refill-overlay_720x.jpg?v=1686692795",
       },
@@ -401,7 +400,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/biggie_…88fb-4ac1-9e29-0b889e115f2c_720x.jpg?v=1646668029",
+          "https://www.getwelly.com/cdn/shop/products/biggie_face_saver_thumb_93a31b8b-88fb-4ac1-9e29-0b889e115f2c_720x.jpg?v=1646668029",
         imageBack:
           "	https://www.getwelly.com/cdn/shop/products/biggie_face_saver_rollover_720x.jpg?v=1646670748",
       },
@@ -414,7 +413,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/files/IC_ClearSp…5a4d-4e1c-9585-be0384b0217c_720x.jpg?v=1691083759",
+          "https://www.getwelly.com/cdn/shop/files/IC_ClearSpot-thumb_f72bcc38-5a4d-4e1c-9585-be0384b0217c_720x.jpg?v=1691083759",
         imageBack:
           "	https://www.getwelly.com/cdn/shop/files/WE_ClearSp…f7ee-4df4-87a0-4008584eb6c5_720x.jpg?v=1691083759",
       },
@@ -448,7 +447,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/Welly_E…6a6e-459e-8ac2-3ff0efe47eb4_720x.jpg?v=1671196374",
+          "https://www.getwelly.com/cdn/shop/products/Welly_ExcursionKit_thumb_1919ea98-6a6e-459e-8ac2-3ff0efe47eb4_720x.jpg?v=1671196374",
         imageBack:
           "	https://www.getwelly.com/cdn/shop/products/Welly_ExcursionKit_overlay_720x.jpg?v=1671196374",
       },
@@ -461,7 +460,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/Welly_B…fe67-44b3-a761-fa243db56491_720x.jpg?v=1671193861",
+          "https://www.getwelly.com/cdn/shop/products/Welly_BaseCan_001_8x8_thumb_c60f00b0-fe67-44b3-a761-fa243db56491_720x.jpg?v=1671193861",
         imageBack:
           "	https://www.getwelly.com/cdn/shop/products/Welly_BaseCan_001_8x8_overlay_720x.jpg?v=1691086967",
       },
@@ -487,9 +486,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/Welly_2…a054-4ad7-a433-cc74d0fb239b_720x.jpg?v=1671193073",
+          "https://www.getwelly.com/cdn/shop/products/Welly_2020_HT_Colorwash_thumb_1dd0f02b-a054-4ad7-a433-cc74d0fb239b_720x.jpg?v=1671193073",
         imageBack:
-          "https://www.getwelly.com/cdn/shop/products/Welly_2…b71a-4e9a-89f2-4a568dc92aec_720x.jpg?v=1671193073",
+          "https://www.getwelly.com/cdn/shop/products/Welly_2020_Exploded_HT_Colorwash_3100e3d5-b71a-4e9a-89f2-4a568dc92aec_720x.jpg?v=1671193073",
       },
     ],
   },
@@ -533,7 +532,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/files/clear-spot…ce6d-4931-a98b-4fe01c1a6ec4_720x.jpg?v=1686692795",
+          "	https://www.getwelly.com/cdn/shop/files/clear-spot-refill-thumb-cosmo_b79fa986-ce6d-4931-a98b-4fe01c1a6ec4_720x.jpg?v=1686692795",
         imageBack:
           "	https://www.getwelly.com/cdn/shop/products/clear-spot-refill-overlay_720x.jpg?v=1686692795",
       },
@@ -546,7 +545,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/1056_FR…7216-4327-9271-1c41287a3c3d_720x.jpg?v=1647529085",
+          "	https://www.getwelly.com/cdn/shop/products/1058_FRONT_1440x_15f7f1a9-bed6-4644-9955-c91f6ae62334_720x.jpg?v=1647528076",
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/1056-refill-overlay_720x.jpg?v=1647528919",
       },
@@ -559,7 +558,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/1056_FR…7216-4327-9271-1c41287a3c3d_720x.jpg?v=1647529085",
+          "	https://www.getwelly.com/cdn/shop/products/1056_FRONT_1440x_03d6be5f-7216-4327-9271-1c41287a3c3d_720x.jpg?v=1647529085",
         imageBack:
           "	https://www.getwelly.com/cdn/shop/products/1056-refill-overlay_720x.jpg?v=1647528919",
       },
@@ -572,7 +571,7 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "https://www.getwelly.com/cdn/shop/products/1057_FR…14af-4f03-8be7-c1760a6b203c_720x.jpg?v=1647529324",
+          "https://www.getwelly.com/cdn/shop/products/1057_FRONT_1440x_5dcc9952-14af-4f03-8be7-c1760a6b203c_720x.jpg?v=1647529324",
         imageBack:
           "https://www.getwelly.com/cdn/shop/products/1057-refill-overlay_720x.jpg?v=1647529442",
       },
@@ -585,9 +584,9 @@ export const DUMMY_COLLECTIONS = [
         onSale: false,
         soldOut: false,
         imageFront:
-          "	https://www.getwelly.com/cdn/shop/products/flexibl…c-bandage-family-pack-thumb_720x.jpg?v=1674852702",
+          "https://www.getwelly.com/cdn/shop/products/flexible-fabric-bandage-family-pack-thumb_720x.jpg?v=1674852702",
         imageBack:
-          "	https://www.getwelly.com/cdn/shop/products/flexibl…76c3-41b4-887d-e4a59b994313_720x.jpg?v=1677506177",
+          "https://getwelly.com/cdn/shop/products/flexible-fabric-bandage-family-pack-overlay_87ec0451-76c3-41b4-887d-e4a59b994313_720x.jpg?v=1677506177",
       },
     ],
   },
