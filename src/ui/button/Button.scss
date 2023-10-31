@@ -1,0 +1,31 @@
+@import "../../scss/variables";
+
+.button {
+  font-size: 1.3rem;
+  color: $color-white;
+  background-color: $color-secondary;
+  text-transform: uppercase;
+  font-weight: $font-semibold;
+  letter-spacing: 2px;
+  padding: 1.2rem 2.6rem;
+  border: 2px solid $color-secondary;
+  align-self: center;
+  transition: all $main-transition;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    color: $color-secondary;
+    background-color: $color-white;
+  }
+
+  &--outline {
+    color: $color-secondary;
+    background-color: $color-white;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-secondary;
+    }
+  }
+}

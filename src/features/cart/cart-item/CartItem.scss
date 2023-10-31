@@ -1,0 +1,70 @@
+@import "../../../scss/variables";
+@import "../../../scss/mixins";
+
+.cart {
+  @include flex(1.4rem);
+  align-items: flex-start;
+  color: $color-primary;
+  padding-bottom: 1.6rem;
+
+  &:not(:last-child) {
+    border-bottom: 2px solid $color-primary;
+  }
+
+  &__photo-box {
+    width: 30%;
+  }
+
+  &__photo {
+    width: 100%;
+  }
+
+  &__content-box {
+    @include flex-col(6px);
+
+    width: 100%;
+  }
+
+  &__name {
+    font-size: 1.7rem;
+    font-weight: $font-normal;
+    line-height: 1.2;
+  }
+
+  &__desc {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  &__future-box {
+    @include flex(1.2rem);
+  }
+
+  &__clear {
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  &__input-box {
+    @include flex(1.2rem);
+    font-weight: $font-semibold;
+
+    span:nth-child(odd) {
+      cursor: pointer;
+    }
+
+    span:nth-child(even) {
+      font-size: 9px;
+      border: 2px solid $color-primary;
+      text-align: center;
+      padding: 6px 7px;
+      border-radius: 24px;
+      display: inline-block;
+    }
+  }
+
+  &__price {
+    font-size: 1.3rem;
+  }
+}

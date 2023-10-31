@@ -1,0 +1,6 @@
+@import "../../../scss/mixins";
+
+.cart-list {
+  @include flex-col(1.6rem);
+  overflow-y: auto;
+}

@@ -7,16 +7,16 @@ import { DUMMY_COLLECTIONS } from "../../../constants/constant";
 
 function CollectionPreview() {
   return (
-    <div className="collection-preview">
+    <section className="collection-preview">
       {DUMMY_COLLECTIONS.map((collection) => {
         return (
           <Fragment key={collection.id}>
             <Heading title={collection.title} subtitle={collection.subtitle} />
-            <CollectionList items={collection.items} /> ;
+            <CollectionList items={collection.items} />
           </Fragment>
         );
       })}
-    </div>
+    </section>
   );
 }
 

@@ -1,12 +1,8 @@
 @import "../../../scss/mixins";
 @import "../../../scss/variables";
 
-// -Font sizes (px):
-// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-// Spacing system (px)
-// 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128;
-
 .cart-sidebar {
+  @include flex-col(2.4rem);
   width: 45rem;
   height: 100vh;
   position: fixed;
@@ -19,6 +15,7 @@
 
   transform: translateX(100%);
   transition: all 0.4s;
+  padding: 2.4rem 1.8rem;
 
   &--active {
     transform: translateX(0);
@@ -28,7 +25,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    padding: 2.4rem 1.8rem;
   }
 
   &__back {
@@ -58,20 +54,32 @@
     }
   }
 
-  &__btn {
+  &__footer {
+    margin-top: auto;
+    border-top: 2px solid $color-primary;
+    padding-top: 2rem;
+    color: $color-primary;
+    @include flex-col(2rem);
+    text-align: center;
+  }
+
+  &__quantity-box {
+    @include flex;
+    justify-content: space-between;
     font-size: 1.3rem;
-    text-transform: uppercase;
     font-weight: $font-semibold;
-    letter-spacing: 2px;
-    padding: 1.2rem 2.6rem;
-    color: $color-secondary;
-    border: 2px solid $color-secondary;
+  }
+
+  &__link {
+    color: $color-primary;
+    font-size: 1.4rem;
+    transition: $main-transition;
+    border-bottom: 2px solid $color-secondary;
     align-self: center;
-    transition: all $main-transition;
+    padding: 4px;
 
     &:hover {
-      color: $color-white;
-      background-color: $color-secondary;
+      color: $color-secondary;
     }
   }
 }
