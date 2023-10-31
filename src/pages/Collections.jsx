@@ -1,4 +1,4 @@
-import CollectionPreview from "../features/collections/CollectionPreview/CollectionPreview";
+import CollectionPreview from "../features/collections/collection-preview/CollectionPreview";
 import Navigation from "../ui/Navigation/Navigation";
 
 function Collections() {

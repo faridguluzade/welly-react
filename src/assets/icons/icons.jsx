@@ -65,3 +65,21 @@ export const BasketIcon = ({ className }) => {
     </svg>
   );
 };
+
+export const ArrowLeftIcon = ({ className }) => {
+  return (
+    <svg
+      width="18px"
+      height="18px"
+      viewBox="0 0 14 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <path
+        d="M7 13.8095L8.23375 12.5926L3.35125 7.76787L14 7.76787L14 6.04168L3.35125 6.04168L8.23375 1.21698L7 1.65542e-05L6.03633e-07 6.90478L7 13.8095Z"
+        fill="#009a87"
+      ></path>
+    </svg>
+  );
+};

@@ -1,0 +1,12 @@
+@import "../../../scss/variables";
+
+.collection-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  padding-bottom: 8rem !important;
+
+  &:not(:last-child) {
+    border-bottom: 2px solid $color-primary;
+  }
+}

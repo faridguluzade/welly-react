@@ -4,8 +4,12 @@ import App from "./App.jsx";
 import "./index.css";
 import "./scss/main.scss";
 
+import { SidebarProvider } from "./context/SidebarContext.jsx";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <SidebarProvider>
+      <App />
+    </SidebarProvider>
   </React.StrictMode>
 );
