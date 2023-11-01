@@ -5,7 +5,6 @@ import "./CollectionList.scss";
 
 // eslint-disable-next-line react/prop-types
 function CollectionList({ items }) {
-  console.log(items);
   return (
     <div className="container collection-list">
       {items.map((item) => (

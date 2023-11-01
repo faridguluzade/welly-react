@@ -1,6 +1,6 @@
 import { useSidebar } from "../../hooks/useSidebar";
 
-import SearchBar from "../SearchBar/SearchBar";
+import SearchBar from "../search-bar/SearchBar";
 import CartSidebar from "../../features/cart/cart-sidebar/CartSidebar";
 
 import { BasketIcon, UserIcon } from "../../assets/icons/icons";

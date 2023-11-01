@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom";
-import { useSidebar } from "../../../hooks/useSidebar";
-import { ArrowLeftIcon } from "../../../assets/icons/icons";
 
+import { useSidebar } from "../../../hooks/useSidebar";
+import { useCart } from "../useCart";
+
+import { ArrowLeftIcon } from "../../../assets/icons/icons";
 import CartList from "../cart-list/CartList";
 import Button from "../../../ui/button/Button";
 
 import "./CartSidebar.scss";
 
 function CartSidebar() {
+  const { cart } = useCart();
   const { open, toggleSidebar } = useSidebar();
-  const empty = false;
+  const empty = cart?.length === 0;
 
   return (
     <div className={`cart-sidebar ${open ? "cart-sidebar--active" : ""}`}>
@@ -30,16 +33,20 @@ function CartSidebar() {
         </div>
       )}
 
-      {!empty && <CartList />}
+      {!empty && (
+        <>
+          <CartList cart={cart} />
 
-      <div className="cart-sidebar__footer">
-        <div className="cart-sidebar__quantity-box">
-          <p>Subtotal</p>
-          <span>$25.98</span>
-        </div>
-        <Button>Check out</Button>
-        <Link className="cart-sidebar__link">Continue Shopping</Link>
-      </div>
+          <div className="cart-sidebar__footer">
+            <div className="cart-sidebar__quantity-box">
+              <p>Subtotal</p>
+              <span>$25.98</span>
+            </div>
+            <Button>Check out</Button>
+            <Link className="cart-sidebar__link">Continue Shopping</Link>
+          </div>
+        </>
+      )}
     </div>
   );
 }

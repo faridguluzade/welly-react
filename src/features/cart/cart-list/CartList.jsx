@@ -1,17 +1,14 @@
+/* eslint-disable react/prop-types */
 import CartItem from "../cart-item/CartItem";
 
 import "./CartList.scss";
 
-function CartList() {
+function CartList({ cart }) {
   return (
     <div className="cart-list">
-      <CartItem />
-      <CartItem />
-      <CartItem />
-      <CartItem />
-      <CartItem />
-      <CartItem />
-      <CartItem />
+      {cart?.map((item) => (
+        <CartItem key={item.id} item={item} />
+      ))}
     </div>
   );
 }

@@ -1,14 +1,16 @@
 import { Fragment } from "react";
 
-import Heading from "../../../ui/Heading/Heading";
+import { useCollections } from "../useCollections";
+
+import Heading from "../../../ui/heading/Heading";
 import CollectionList from "../collection-list/CollectionList";
 
-import { DUMMY_COLLECTIONS } from "../../../constants/constant";
-
 function CollectionPreview() {
+  const { collections } = useCollections();
+
   return (
     <section className="collection-preview">
-      {DUMMY_COLLECTIONS.map((collection) => {
+      {collections?.map((collection) => {
         return (
           <Fragment key={collection.id}>
             <Heading title={collection.title} subtitle={collection.subtitle} />
