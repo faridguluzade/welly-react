@@ -1,16 +1,20 @@
 import { API_URL } from "../utils/config";
 
 export async function getCart() {
-  const res = await fetch(`${API_URL}/cart`);
+  try {
+    const res = await fetch(`${API_URL}/cart`);
 
-  if (!res.ok) throw new Error("Could not load the cart");
+    if (!res.ok) throw new Error("Could not load the cart");
 
-  const data = res.json();
+    const data = res.json();
 
-  return data;
+    return data;
+  } catch (error) {
+    throw new Error(error.message);
+  }
 }
 
-export async function addItemToCart(newData) {
+export async function createCartItem(newData) {
   try {
     const res = await fetch(`${API_URL}/cart`, {
       method: "POST",
@@ -25,6 +29,26 @@ export async function addItemToCart(newData) {
     });
 
     if (!res.ok) throw new Error("Could not add the item to cart");
+
+    const data = await res.json();
+
+    return data;
+  } catch (error) {
+    throw new Error(error.message);
+  }
+}
+
+export async function updateCartItem(id, updatedData) {
+  try {
+    const res = await fetch(`${API_URL}/cart/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(updatedData),
+    });
+
+    if (!res.ok) throw new Error("Could not the update data");
 
     const data = await res.json();
 

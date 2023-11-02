@@ -1,10 +1,42 @@
 /* eslint-disable react/prop-types */
 import { useDeleteCart } from "../useDeleteCart";
+import { useUpdateCart } from "../useUpdateCart";
+
+import { formatCurrency } from "../../../utils/helpers";
+
 import "./CartItem.scss";
 
 function CartItem({ item }) {
   const { id, image, name, description, quantity, price } = item;
   const { deleteItem } = useDeleteCart();
+  const { updateCart } = useUpdateCart();
+
+  function increaseItemQuantity() {
+    const newQuantity = quantity + 1;
+
+    const updatedData = {
+      quantity: newQuantity,
+      totalPrice: newQuantity * price,
+    };
+
+    updateCart({ id, updatedData });
+  }
+
+  function decreaseItemQuantity() {
+    const newQuantity = quantity - 1;
+
+    if (newQuantity === 0) {
+      deleteItem(id);
+      return;
+    }
+
+    const updatedData = {
+      quantity: newQuantity,
+      totalPrice: newQuantity * price,
+    };
+
+    updateCart({ id, updatedData });
+  }
 
   return (
     <div className="cart">
@@ -20,13 +52,13 @@ function CartItem({ item }) {
             Remove
           </span>
           <div className="cart__input-box">
-            <span>-</span>
+            <span onClick={decreaseItemQuantity}>-</span>
             <span>{quantity}</span>
-            <span>+</span>
+            <span onClick={increaseItemQuantity}>+</span>
           </div>
         </div>
       </div>
-      <div className="cart__price">{price}</div>
+      <div className="cart__price">{formatCurrency(price)}</div>
     </div>
   );
 }

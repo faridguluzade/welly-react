@@ -13,16 +13,36 @@
 
   &__photo-box {
     width: 30%;
+    cursor: pointer;
+    overflow: hidden;
   }
 
   &__photo {
     width: 100%;
+    transition: all 0.5s linear;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   &__content-box {
     @include flex-col(6px);
-
     width: 100%;
+    cursor: pointer;
+
+    &:hover .cart__name {
+      color: $color-secondary;
+    }
+
+    &:hover .cart__desc {
+      color: $color-secondary;
+    }
+  }
+
+  &__name,
+  &__desc {
+    transition: $main-transition;
   }
 
   &__name {
@@ -34,6 +54,7 @@
   &__desc {
     font-size: 1.2rem;
     line-height: 1.2;
+    color: inherit;
   }
 
   &__future-box {

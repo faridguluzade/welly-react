@@ -1,16 +1,31 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
-import { addItemToCart as addItemToCartApi } from "../../services/apiCart";
+import { createCartItem, updateCartItem } from "../../services/apiCart";
 
 export function useAddCart() {
   const queryClient = useQueryClient();
 
-  const cachedCartData = queryClient.getQueryData(["cart"]);
-
-  console.log(cachedCartData);
-
   const { mutate: addItemToCart, isLoading } = useMutation({
-    mutationFn: addItemToCartApi,
+    mutationFn: async (data) => {
+      const cachedCartData = queryClient.getQueryData(["cart"]);
+
+      const existingItem = cachedCartData.find(
+        (item) => item.productId === data.productId
+      );
+
+      if (existingItem) {
+        const quantity = existingItem.quantity + 1;
+        const updatedData = {
+          quantity,
+          totalPrice: quantity * existingItem.price,
+        };
+        await updateCartItem(existingItem.id, updatedData);
+        return;
+      } else {
+        await createCartItem(data);
+        return;
+      }
+    },
     onSuccess: () => {
       queryClient.invalidateQueries({
         queryKey: ["cart"],

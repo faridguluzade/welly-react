@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useAddCart } from "../../cart/useAddCart";
+import { formatCurrency } from "../../../utils/helpers";
 
 import { BasketIcon, SpinnerIcon } from "../../../assets/icons/icons";
 
@@ -18,8 +19,6 @@ function CollectionItem({ item }) {
   } = item;
 
   const { addItemToCart, isLoading } = useAddCart();
-
-  console.log(isLoading);
 
   function handleAddItem() {
     const price = onSale ? salePrice : regularPrice;
@@ -53,11 +52,17 @@ function CollectionItem({ item }) {
         <div className="collection__price-box">
           {onSale ? (
             <>
-              <span className="collection__sale-price">{regularPrice}</span>
-              <span className="collection__regular-price">{salePrice}</span>
+              <span className="collection__sale-price">
+                {formatCurrency(regularPrice)}
+              </span>
+              <span className="collection__regular-price">
+                {formatCurrency(salePrice)}
+              </span>
             </>
           ) : (
-            <span className="collection__regular-price">{regularPrice}</span>
+            <span className="collection__regular-price">
+              {formatCurrency(regularPrice)}
+            </span>
           )}
         </div>
 

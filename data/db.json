@@ -518,16 +518,6 @@
   ],
   "cart": [
     {
-      "name": "Bravery Badges Space",
-      "description": "ASSORTED FLEX FABRIC BANDAGES",
-      "image": "https://www.getwelly.com/cdn/shop/products/1061_FRONT_1720x.jpg?v=1647526029",
-      "price": 7.99,
-      "productId": 8,
-      "quantity": 1,
-      "totalPrice": 7.99,
-      "id": 1
-    },
-    {
       "name": "Flexible Fabric Bandage Refill Carton",
       "description": " ASSORTED SHAPES AND PATTERNS, 100 COUNT",
       "image": "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-thumb_720x.jpg?v=1670528422",
@@ -535,7 +525,27 @@
       "productId": 2,
       "quantity": 1,
       "totalPrice": 11.99,
+      "id": 1
+    },
+    {
+      "name": "Biggie Space Flexible Fabric Bandies",
+      "description": "ASSORTED FLEX FABRIC BANDAGES, 15 COUNT",
+      "image": "https://www.getwelly.com/cdn/shop/products/biggie-bandies-thumb_720x.jpg?v=1674852619",
+      "price": 7.99,
+      "productId": 3,
+      "quantity": 1,
+      "totalPrice": 7.99,
       "id": 2
+    },
+    {
+      "name": "Flexible Fabric Bandage Family Pack",
+      "description": "ASSORTED SHAPES AND PATTERNS, 80 COUNT",
+      "image": "https://www.getwelly.com/cdn/shop/products/flexible-fabric-bandage-family-pack-thumb_720x.jpg?v=1674852702",
+      "price": 9.99,
+      "productId": 1,
+      "quantity": 3,
+      "totalPrice": 29.97,
+      "id": 3
     }
   ]
 }
