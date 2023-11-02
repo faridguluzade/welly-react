@@ -1,10 +1,13 @@
 /* eslint-disable react/prop-types */
-import { BasketIcon } from "../../../assets/icons/icons";
+import { useAddCart } from "../../cart/useAddCart";
+
+import { BasketIcon, SpinnerIcon } from "../../../assets/icons/icons";
 
 import "./CollectionItem.scss";
 
 function CollectionItem({ item }) {
   const {
+    id,
     name,
     description,
     imageFront,
@@ -13,6 +16,23 @@ function CollectionItem({ item }) {
     salePrice,
     onSale,
   } = item;
+
+  const { addItemToCart, isLoading } = useAddCart();
+
+  console.log(isLoading);
+
+  function handleAddItem() {
+    const price = onSale ? salePrice : regularPrice;
+
+    addItemToCart({
+      name,
+      description,
+      image: imageFront,
+      price,
+      productId: id,
+    });
+  }
+
   return (
     <div className="collection">
       <figure className="collection__photo-box">
@@ -41,8 +61,9 @@ function CollectionItem({ item }) {
           )}
         </div>
 
-        <button className="collection__btn">
-          <BasketIcon className="collection__basket-icon" />
+        <button className="collection__btn" onClick={handleAddItem}>
+          {isLoading && <SpinnerIcon className="collection__basket-icon" />}
+          {!isLoading && <BasketIcon className="collection__basket-icon" />}
           <span>Add to cart</span>
         </button>
       </div>

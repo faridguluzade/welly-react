@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
+import { useDeleteCart } from "../useDeleteCart";
 import "./CartItem.scss";
 
 function CartItem({ item }) {
-  const { image, name, desc, quantity, price } = item;
+  const { id, image, name, description, quantity, price } = item;
+  const { deleteItem } = useDeleteCart();
 
   return (
     <div className="cart">
@@ -11,10 +13,12 @@ function CartItem({ item }) {
       </figure>
       <div className="cart__content-box">
         <h3 className="cart__name">{name}</h3>
-        <p className="cart__desc">{desc}</p>
+        <p className="cart__desc">{description}</p>
 
         <div className="cart__future-box">
-          <span className="cart__clear">Remove</span>
+          <span className="cart__clear" onClick={() => deleteItem(id)}>
+            Remove
+          </span>
           <div className="cart__input-box">
             <span>-</span>
             <span>{quantity}</span>
