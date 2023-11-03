@@ -1,12 +1,12 @@
+import { useCart } from "../../features/cart/useCart";
 import { useSidebar } from "../../hooks/useSidebar";
 
-import SearchBar from "../search-bar/SearchBar";
+import SearchBar from "../../features/search/search-bar/SearchBar";
 import CartSidebar from "../../features/cart/cart-sidebar/CartSidebar";
 
 import { BasketIcon, UserIcon } from "../../assets/icons/icons";
 
 import "./Navigation.scss";
-import { useCart } from "../../features/cart/useCart";
 
 function Navigation() {
   const { toggleSidebar } = useSidebar();

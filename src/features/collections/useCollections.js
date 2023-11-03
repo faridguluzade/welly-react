@@ -1,15 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
-import { getCollections } from "../../services/apiCollection";
+import { getCollections } from "../../services/apiCollections";
 
 export function useCollections() {
-  const {
-    data: collections,
-    isLoading,
-    error,
-  } = useQuery({
-    queryKey: ["collections"],
+  const { data: collections } = useQuery({
+    queryKey: ["collection"],
     queryFn: getCollections,
   });
 
-  return { collections, isLoading, error };
+  return { collections };
 }

@@ -10,7 +10,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/flexible-fabric-bandage-family-pack-thumb_720x.jpg?v=1674852702",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/flexible-fabric-bandage-family-pack-overlay_87ec0451-76c3-41b4-887d-e4a59b994313_720x.jpg?v=1677506177",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-thumb_720x.jpg?v=1670528422",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-overlay_92353a1d-e83c-4909-a3ac-8c893af6b4d3_720x.jpg?v=1677506243",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/biggie-bandies-thumb_720x.jpg?v=1674852619",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/biggie-bandies-bandages_720x.jpg?v=1678107812",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/camping_thumb_bceec392-ee79-46d0-bc00-e3faf7345864_720x.jpg?v=1646347525",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/camping_rollover_720x.jpg?v=1646347525",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/dog-bravery-badges-thumb_720x.jpg?v=1674851869",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/dog-bravery-badges-overlay_720x.jpg?v=1674851869",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/Welly_2020_Sloth_front_1720x.jpg?v=1659554938",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/Welly_2020_Sloth_rollover_720x.jpg?v=1659554938",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 7,
@@ -82,7 +82,7 @@
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/products/1045_FRONT_1720x.jpg?v=1647525467",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/Welly_2020_Exploded_Colorwash_720x.jpg?v=1652104264",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 8,
@@ -94,7 +94,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/1061_FRONT_1720x.jpg?v=1647526029",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/IC_Space_overview1_view_05d6dbc8-df00-4c1f-8c64-bedee76515b9_720x.jpg?v=1647531278",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 9,
@@ -106,7 +106,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/northern-lights-handy-bandies-thumb_720x.jpg?v=1674852325",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/northern-lights-handy-bandies-overlay_720x.jpg?v=1674852325",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 10,
@@ -118,7 +118,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/IC_Jellyfish-thumb_720x.jpg?v=1652210096",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/IC_Jellyfish_overview1_view_88d2dcea-3666-44e1-95c8-11abbd2674c4_720x.jpg?v=1652210096",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 11,
@@ -130,7 +130,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/biggie_face_saver_front_1720x.jpg?v=1646668029",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/biggie_face_saver_rollover_720x.jpg?v=1646670748",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 12,
@@ -142,7 +142,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/files/IC_ClearSpot_top_view-cosmo_1720x.jpg?v=1691083759",
       "imageBack": "https://www.getwelly.com/cdn/shop/files/WE_ClearSpot_Hero_8ccdf561-f7ee-4df4-87a0-4008584eb6c5_720x.jpg?v=1691083759",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 13,
@@ -154,7 +154,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/floral-wonderland-bravery-badges-thumb1_720x.jpg?v=1674852228",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/floral-wonderland-bravery-badges-overlay_720x.jpg?v=1674852228",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 14,
@@ -166,7 +166,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/dinosaur_thumb_74270587-ad7e-43ed-989a-3133bb957ecd_720x.jpg?v=1646346830",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/dinosaur_rollover_720x.jpg?v=1646346830",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 15,
@@ -178,7 +178,7 @@
       "soldOut": true,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/Welly_2020_FullSize_Llama_thumb_74076129-4334-4396-8124-f1a5b66f1047_720x.jpg?v=1631125465",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/Welly_2020_Exploded_Llama_720x.jpg?v=1631125465",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 16,
@@ -190,7 +190,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/1071_FRONT_1440x_8150dce1-e577-417e-bb86-6b56577abcbe_720x.jpg?v=1647526295",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/Welly_2021_Exploded_Ice_Cream_720x.jpg?v=1647526295",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 17,
@@ -202,7 +202,7 @@
       "soldOut": true,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/1007_FRONT_1440x_6ee88eb7-c3a1-48fa-ab45-502a244b2db7_720x.jpg?v=1656452402",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WE_Finger_and_Toe_Hero_a94fd028-dedf-4738-8c69-c34f486f02b3_720x.jpg?v=1656452402",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 18,
@@ -214,7 +214,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/1004_FRONT_1440x_f3df0578-a0e8-46e4-8645-3405ed0319c8_720x.jpg?v=1649364142",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/orange-exploded_720x.jpg?v=1649364142",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 19,
@@ -226,7 +226,7 @@
       "soldOut": true,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/1016_FRONT_1440x_86680646-3d73-4c8c-8e92-5f49646b15c8_720x.jpg?v=1647526480",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WE_Monster_Hero_720x.jpg?v=1647526579",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 20,
@@ -238,7 +238,7 @@
       "soldOut": true,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/1062_FRONT_1440x_f77cc95b-0fec-4fc9-a201-7cf74eff5fa3_720x.jpg?v=1656452532",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/veggie-hero_720x.jpg?v=1656452532",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 21,
@@ -250,7 +250,7 @@
       "soldOut": true,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/IC_Waterproof-thumb_ed95403d-05f0-4dc4-90ce-f19bcde94f55_720x.jpg?v=1650895497",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/IC_Waterproof-overlay_720x.jpg?v=1650895497",
-      "categoryId": 1
+      "collectionId": 1
     },
     {
       "id": 22,
@@ -262,7 +262,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WLY1101_ECZEMA-7oz-thumb_720x.jpg?v=1669848890",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WLY1101_ECZEMA-7oz-carousel-hands_720x.jpg?v=1670613996",
-      "categoryId": 2
+      "collectionId": 2
     },
     {
       "id": 23,
@@ -274,7 +274,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WLY1106_DAILYHYDRA_BL-16oz_thumb_7ced8723-8b4d-42f6-8665-75bdc6c53a9b_720x.jpg?v=1669851232",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WLY1106_DAILYHYDRA_BL-16oz_carousel-hands_720x.jpg?v=1670616826",
-      "categoryId": 2
+      "collectionId": 2
     },
     {
       "id": 24,
@@ -286,7 +286,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WLY1105_BODYACNE_SPRAY-7oz_thumb_6e477b9d-5312-46b0-b327-95d3933c3ad8_720x.jpg?v=1669851144",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WLY1105_BODYACNE_SPRAY-7oz_carousel-hands_720x.jpg?v=1670614514",
-      "categoryId": 2
+      "collectionId": 2
     },
     {
       "id": 25,
@@ -298,7 +298,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WLY1102_ROUGHBUMPY_BL-7oz_thumb_847d1d99-1148-4783-973d-8faf2ea69a0c_720x.jpg?v=1669851004",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/WLY1102_ROUGHBUMPY_BL-7oz_carousel-hands_720x.jpg?v=1670616726",
-      "categoryId": 2
+      "collectionId": 2
     },
     {
       "id": 26,
@@ -310,7 +310,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WLY1104-FIRMING_BC-7oz_thumb_b2cde6dc-272b-469a-bfb4-0170dd85fcff_720x.jpg?v=1669848596",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WLY1104-FIRMING_BC-7oz_carousel-hands_720x.jpg?v=1670616791",
-      "categoryId": 2
+      "collectionId": 2
     },
     {
       "id": 27,
@@ -322,7 +322,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WLY1103_DRYITCHY_BL-7oz_thumb_5ddeb904-ea74-4168-82e4-145c6fbd4a12_720x.jpg?v=1670012842",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WLY1103_DRYITCHY_BL-7oz_carousel-hands_720x.jpg?v=1670616757",
-      "categoryId": 2
+      "collectionId": 2
     },
     {
       "id": 28,
@@ -334,7 +334,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/files/clear-spot-refill-thumb-cosmo_b79fa986-ce6d-4931-a98b-4fe01c1a6ec4_720x.jpg?v=1686692795",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/clear-spot-refill-overlay_720x.jpg?v=1686692795",
-      "categoryId": 3
+      "collectionId": 3
     },
     {
       "id": 29,
@@ -346,7 +346,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/biggie_face_saver_thumb_93a31b8b-88fb-4ac1-9e29-0b889e115f2c_720x.jpg?v=1646668029",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/biggie_face_saver_rollover_720x.jpg?v=1646670748",
-      "categoryId": 3
+      "collectionId": 3
     },
     {
       "id": 30,
@@ -357,8 +357,8 @@
       "onSale": false,
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/files/IC_ClearSpot-thumb_f72bcc38-5a4d-4e1c-9585-be0384b0217c_720x.jpg?v=1691083759",
-      "imageBack": "\thttps://www.getwelly.com/cdn/shop/files/WE_ClearSp…f7ee-4df4-87a0-4008584eb6c5_720x.jpg?v=1691083759",
-      "categoryId": 3
+      "imageBack": "",
+      "collectionId": 3
     },
     {
       "id": 31,
@@ -370,7 +370,7 @@
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/products/IC_Travel-thumb_720x.jpg?v=1671191598",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/IC_Travel_overlay_720x.jpg?v=1671191598",
-      "categoryId": 4
+      "collectionId": 4
     },
     {
       "id": 32,
@@ -382,7 +382,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/Welly_ExcursionKit_thumb_1919ea98-6a6e-459e-8ac2-3ff0efe47eb4_720x.jpg?v=1671196374",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/Welly_ExcursionKit_overlay_720x.jpg?v=1671196374",
-      "categoryId": 4
+      "collectionId": 4
     },
     {
       "id": 33,
@@ -394,7 +394,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/Welly_BaseCan_001_8x8_thumb_c60f00b0-fe67-44b3-a761-fa243db56491_720x.jpg?v=1671193861",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/Welly_BaseCan_001_8x8_overlay_720x.jpg?v=1691086967",
-      "categoryId": 4
+      "collectionId": 4
     },
     {
       "id": 34,
@@ -406,7 +406,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/WE_OnTheGo-thumb_720x.jpg?v=1671192464",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/WE_On-The-Go_overlay_720x.jpg?v=1671192464",
-      "categoryId": 4
+      "collectionId": 4
     },
     {
       "id": 35,
@@ -418,7 +418,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/Welly_2020_HT_Colorwash_thumb_1dd0f02b-a054-4ad7-a433-cc74d0fb239b_720x.jpg?v=1671193073",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/Welly_2020_Exploded_HT_Colorwash_3100e3d5-b71a-4e9a-89f2-4a568dc92aec_720x.jpg?v=1671193073",
-      "categoryId": 4
+      "collectionId": 4
     },
     {
       "id": 36,
@@ -430,7 +430,7 @@
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/products/biggie-bandies-thumb_720x.jpg?v=1674852619",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/biggie-bandies-bandages_720x.jpg?v=1678107812",
-      "categoryId": 5
+      "collectionId": 5
     },
     {
       "id": 37,
@@ -441,8 +441,8 @@
       "onSale": false,
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-thumb_720x.jpg?v=1670528422",
-      "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/WLY1111…e83c-4909-a3ac-8c893af6b4d3_720x.jpg?v=1677506243",
-      "categoryId": 5
+      "imageBack": "",
+      "collectionId": 5
     },
     {
       "id": 38,
@@ -454,7 +454,7 @@
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/files/clear-spot-refill-thumb-cosmo_b79fa986-ce6d-4931-a98b-4fe01c1a6ec4_720x.jpg?v=1686692795",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/clear-spot-refill-overlay_720x.jpg?v=1686692795",
-      "categoryId": 5
+      "collectionId": 5
     },
     {
       "id": 39,
@@ -466,7 +466,7 @@
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/products/1058_FRONT_1440x_15f7f1a9-bed6-4644-9955-c91f6ae62334_720x.jpg?v=1647528076",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/1056-refill-overlay_720x.jpg?v=1647528919",
-      "categoryId": 5
+      "collectionId": 5
     },
     {
       "id": 40,
@@ -478,7 +478,7 @@
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/products/1056_FRONT_1440x_03d6be5f-7216-4327-9271-1c41287a3c3d_720x.jpg?v=1647529085",
       "imageBack": "\thttps://www.getwelly.com/cdn/shop/products/1056-refill-overlay_720x.jpg?v=1647528919",
-      "categoryId": 5
+      "collectionId": 5
     },
     {
       "id": 41,
@@ -490,7 +490,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/1057_FRONT_1440x_5dcc9952-14af-4f03-8be7-c1760a6b203c_720x.jpg?v=1647529324",
       "imageBack": "https://www.getwelly.com/cdn/shop/products/1057-refill-overlay_720x.jpg?v=1647529442",
-      "categoryId": 5
+      "collectionId": 5
     },
     {
       "id": 42,
@@ -502,7 +502,7 @@
       "soldOut": false,
       "imageFront": "https://www.getwelly.com/cdn/shop/products/flexible-fabric-bandage-family-pack-thumb_720x.jpg?v=1674852702",
       "imageBack": "https://getwelly.com/cdn/shop/products/flexible-fabric-bandage-family-pack-overlay_87ec0451-76c3-41b4-887d-e4a59b994313_720x.jpg?v=1677506177",
-      "categoryId": 5
+      "collectionId": 5
     },
     {
       "id": 41,
@@ -514,10 +514,10 @@
       "soldOut": false,
       "imageFront": "\thttps://www.getwelly.com/cdn/shop/products/gift-card-thumb_720x.jpg?v=1626696614",
       "imageBack": "",
-      "categoryId": 6
+      "collectionId": 6
     }
   ],
-  "categories": [
+  "collections": [
     {
       "id": 1,
       "title": "Bandages",
@@ -551,34 +551,34 @@
   ],
   "cart": [
     {
-      "name": "Body Acne Spray",
-      "description": "For treating pimples, blackheads, whiteheads, and clogged pores on problem areas",
-      "image": "https://www.getwelly.com/cdn/shop/products/WLY1105_BODYACNE_SPRAY-7oz_thumb_6e477b9d-5312-46b0-b327-95d3933c3ad8_720x.jpg?v=1669851144",
-      "price": 16.99,
-      "productId": 24,
-      "quantity": 4,
-      "totalPrice": 67.96,
-      "id": 14
-    },
-    {
-      "name": "Dry & Itchy Body Lotion",
-      "description": "For relieving dry, itchy skin",
-      "image": "https://www.getwelly.com/cdn/shop/products/WLY1103_DRYITCHY_BL-7oz_thumb_5ddeb904-ea74-4168-82e4-145c6fbd4a12_720x.jpg?v=1670012842",
-      "price": 16.99,
-      "productId": 27,
-      "quantity": 3,
-      "totalPrice": 50.97,
-      "id": 15
-    },
-    {
-      "name": "Flexible Fabric Bandage Refill Carton",
-      "description": " ASSORTED SHAPES AND PATTERNS, 100 COUNT",
-      "image": "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-thumb_720x.jpg?v=1670528422",
-      "price": 11.99,
-      "productId": 2,
+      "name": "Bravery Badges Assorted Colorwash",
+      "description": "Assorted Flex Fabric Bandages",
+      "image": "\thttps://www.getwelly.com/cdn/shop/products/1045_FRONT_1720x.jpg?v=1647525467",
+      "price": 7.99,
+      "productId": 7,
       "quantity": 1,
-      "totalPrice": 11.99,
-      "id": 16
+      "totalPrice": 7.99,
+      "id": 2
+    },
+    {
+      "name": "Camping Bravery Badges",
+      "description": "Assorted Flex Fabric Bandages",
+      "image": "https://www.getwelly.com/cdn/shop/products/camping_thumb_bceec392-ee79-46d0-bc00-e3faf7345864_720x.jpg?v=1646347525",
+      "price": 7.99,
+      "productId": 4,
+      "quantity": 1,
+      "totalPrice": 7.99,
+      "id": 3
+    },
+    {
+      "name": "Biggie Space Flexible Fabric Bandies",
+      "description": "ASSORTED FLEX FABRIC BANDAGES, 15 COUNT",
+      "image": "https://www.getwelly.com/cdn/shop/products/biggie-bandies-thumb_720x.jpg?v=1674852619",
+      "price": 7.99,
+      "productId": 3,
+      "quantity": 4,
+      "totalPrice": 31.96,
+      "id": 4
     }
   ]
 }

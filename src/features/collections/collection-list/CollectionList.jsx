@@ -4,10 +4,10 @@ import CollectionItem from "../collection-item/CollectionItem";
 import "./CollectionList.scss";
 
 // eslint-disable-next-line react/prop-types
-function CollectionList({ items }) {
+function CollectionList({ products }) {
   return (
     <div className="container collection-list">
-      {items.map((item) => (
+      {products.map((item) => (
         <CollectionItem key={item.id} item={item} />
       ))}
     </div>

@@ -22,7 +22,11 @@ export function useAddCart() {
         await updateCartItem(existingItem.id, updatedData);
         return;
       } else {
-        await createCartItem(data);
+        await createCartItem({
+          ...data,
+          quantity: 1,
+          totalPrice: data.price * 1,
+        });
         return;
       }
     },

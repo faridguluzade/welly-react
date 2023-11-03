@@ -1,13 +1,12 @@
 import CollectionPreview from "../features/collections/collection-preview/CollectionPreview";
-import Navigation from "../ui/navigation/Navigation";
+import { useSearch } from "../features/search/useSearch";
 
 function Collections() {
-  return (
-    <>
-      <Navigation />
-      <CollectionPreview />
-    </>
-  );
+  const { products } = useSearch();
+
+  console.log(products);
+
+  return <CollectionPreview />;
 }
 
 export default Collections;

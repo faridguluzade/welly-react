@@ -21,11 +21,7 @@ export async function createCartItem(newData) {
       headers: {
         "Content-type": "application/json",
       },
-      body: JSON.stringify({
-        ...newData,
-        quantity: 1,
-        totalPrice: newData.price * 1,
-      }),
+      body: JSON.stringify(newData),
     });
 
     if (!res.ok) throw new Error("Could not add the item to cart");
