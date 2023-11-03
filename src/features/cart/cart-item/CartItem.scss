@@ -76,12 +76,14 @@
     }
 
     span:nth-child(even) {
-      font-size: 9px;
+      font-size: 1rem;
       border: 2px solid $color-primary;
+
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
       text-align: center;
-      padding: 6px 7px;
-      border-radius: 24px;
-      display: inline-block;
+      line-height: 19px;
     }
   }
 

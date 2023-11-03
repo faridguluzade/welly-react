@@ -4,12 +4,12 @@ import { getCart } from "../../services/apiCart";
 export function useCart() {
   const {
     data: cart,
-    isLoading,
+    status,
     error,
   } = useQuery({
     queryKey: ["cart"],
     queryFn: getCart,
   });
 
-  return { cart, isLoading, error };
+  return { cart, status, error };
 }

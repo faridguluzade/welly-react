@@ -86,21 +86,13 @@
     background-color: $color-primary-light;
     cursor: pointer;
     transition: background-color $main-transition;
-  }
-  &__btn:hover {
-    background-color: $color-primary;
+
+    &:hover {
+      background-color: $color-primary;
+    }
   }
 
   &__basket-icon {
     fill: $color-white;
-  }
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }

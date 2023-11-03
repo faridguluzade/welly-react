@@ -2,7 +2,8 @@
 import { useAddCart } from "../../cart/useAddCart";
 import { formatCurrency } from "../../../utils/helpers";
 
-import { BasketIcon, SpinnerIcon } from "../../../assets/icons/icons";
+import { BasketIcon } from "../../../assets/icons/icons";
+import SpinnerMini from "../../../ui/spinner-mini/SpinnerMini";
 
 import "./CollectionItem.scss";
 
@@ -18,7 +19,8 @@ function CollectionItem({ item }) {
     onSale,
   } = item;
 
-  const { addItemToCart, isLoading } = useAddCart();
+  const { addItemToCart, status } = useAddCart();
+  const isLoading = status === "pending";
 
   function handleAddItem() {
     const price = onSale ? salePrice : regularPrice;
@@ -66,8 +68,15 @@ function CollectionItem({ item }) {
           )}
         </div>
 
-        <button className="collection__btn" onClick={handleAddItem}>
-          {isLoading && <SpinnerIcon className="collection__basket-icon" />}
+        <button
+          disabled={isLoading}
+          style={{
+            cursor: isLoading ? "not-allowed" : "pointer",
+          }}
+          className="collection__btn"
+          onClick={handleAddItem}
+        >
+          {isLoading && <SpinnerMini />}
           {!isLoading && <BasketIcon className="collection__basket-icon" />}
           <span>Add to cart</span>
         </button>

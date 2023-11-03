@@ -8,13 +8,15 @@ import CollectionList from "../collection-list/CollectionList";
 function CollectionPreview() {
   const { collections } = useCollections();
 
+  console.log(collections);
+
   return (
     <section className="collection-preview">
       {collections?.map((collection) => {
         return (
           <Fragment key={collection.id}>
             <Heading title={collection.title} subtitle={collection.subtitle} />
-            <CollectionList items={collection.items} />
+            <CollectionList items={collection.products} />
           </Fragment>
         );
       })}

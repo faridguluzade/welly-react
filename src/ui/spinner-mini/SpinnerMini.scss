@@ -1,0 +1,9 @@
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.spinner-mini {
+  animation: rotate 1s infinite linear;
+}

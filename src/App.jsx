@@ -7,7 +7,14 @@ import Collections from "./pages/Collections";
 import Login from "./pages/Account/Login";
 import Signup from "./pages/Account/Signup";
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      // staleTime: 60 * 1000,
+      staleTime: 0,
+    },
+  },
+});
 
 function App() {
   return (

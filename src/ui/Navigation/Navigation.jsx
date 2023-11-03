@@ -6,9 +6,13 @@ import CartSidebar from "../../features/cart/cart-sidebar/CartSidebar";
 import { BasketIcon, UserIcon } from "../../assets/icons/icons";
 
 import "./Navigation.scss";
+import { useCart } from "../../features/cart/useCart";
 
 function Navigation() {
   const { toggleSidebar } = useSidebar();
+  const { cart } = useCart();
+
+  const quantity = cart?.reduce((acc, cur) => acc + cur.quantity, 0);
 
   return (
     <>
@@ -43,7 +47,7 @@ function Navigation() {
           </li>
           <li className="nav__basket" onClick={toggleSidebar}>
             <BasketIcon className="nav__basket-icon" />
-            <span className="nav__cart-quantity">1</span>
+            <span className="nav__cart-quantity">{quantity}</span>
           </li>
         </ul>
       </nav>

@@ -91,6 +91,8 @@ export const SpinnerIcon = ({ className }) => {
       data-name="Layer 1"
       viewBox="0 0 24 24"
       id="spinner-alt"
+      height="22px "
+      width="22px"
     >
       <path
         fill="#fff"

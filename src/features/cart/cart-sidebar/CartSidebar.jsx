@@ -8,11 +8,16 @@ import CartList from "../cart-list/CartList";
 import Button from "../../../ui/button/Button";
 
 import "./CartSidebar.scss";
+import { formatCurrency } from "../../../utils/helpers";
 
 function CartSidebar() {
   const { cart } = useCart();
   const { open, toggleSidebar } = useSidebar();
   const empty = cart?.length === 0;
+
+  const subtotal = cart
+    ?.reduce((acc, cur) => acc + cur.totalPrice, 0)
+    .toFixed(2);
 
   return (
     <div className={`cart-sidebar ${open ? "cart-sidebar--active" : ""}`}>
@@ -40,10 +45,12 @@ function CartSidebar() {
           <div className="cart-sidebar__footer">
             <div className="cart-sidebar__quantity-box">
               <p>Subtotal</p>
-              <span>$25.98</span>
+              <span>{formatCurrency(subtotal)}</span>
             </div>
             <Button>Check out</Button>
-            <Link className="cart-sidebar__link">Continue Shopping</Link>
+            <Link onClick={toggleSidebar} className="cart-sidebar__link">
+              Continue Shopping
+            </Link>
           </div>
         </>
       )}

@@ -5,7 +5,7 @@ import { createCartItem, updateCartItem } from "../../services/apiCart";
 export function useAddCart() {
   const queryClient = useQueryClient();
 
-  const { mutate: addItemToCart, isLoading } = useMutation({
+  const { mutate: addItemToCart, status } = useMutation({
     mutationFn: async (data) => {
       const cachedCartData = queryClient.getQueryData(["cart"]);
 
@@ -33,5 +33,5 @@ export function useAddCart() {
     },
   });
 
-  return { addItemToCart, isLoading };
+  return { addItemToCart, status };
 }
