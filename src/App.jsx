@@ -5,6 +5,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 import AppLayout from "./pages/app-layout/AppLayout";
 import Collections from "./pages/Collections";
+import Search from "./pages/search/Search";
 import Login from "./pages/Account/Login";
 import Signup from "./pages/Account/Signup";
 
@@ -26,6 +27,7 @@ function App() {
           <Route element={<AppLayout />}>
             <Route index element={<Navigate replace to="collections" />} />
             <Route path="collections" element={<Collections />} />
+            <Route path="search" element={<Search />} />
             <Route path="account/login" element={<Login />} />
             <Route path="account/signup" element={<Signup />} />
           </Route>

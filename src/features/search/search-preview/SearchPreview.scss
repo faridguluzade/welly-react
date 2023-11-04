@@ -1,0 +1,30 @@
+@import "../../../scss/variables";
+@import "../../../scss/mixins";
+
+.search-preview {
+  @include flex-col(8rem);
+
+  &__content {
+    color: $color-primary;
+    text-align: center;
+    @include flex-col(2rem);
+    margin-top: 8rem;
+
+    h2 {
+      font-size: 4.4rem;
+      font-family: $font-secondary;
+      font-weight: $font-normal;
+      letter-spacing: -0.044em;
+    }
+
+    p {
+      font-size: 2.1rem;
+      text-align: center;
+    }
+
+    button {
+      width: auto;
+      margin-top: 3rem;
+    }
+  }
+}

@@ -7,7 +7,7 @@ import "./CollectionList.scss";
 function CollectionList({ products }) {
   return (
     <div className="container collection-list">
-      {products.map((item) => (
+      {products?.map((item) => (
         <CollectionItem key={item.id} item={item} />
       ))}
     </div>
