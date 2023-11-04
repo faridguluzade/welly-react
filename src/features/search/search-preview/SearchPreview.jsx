@@ -38,7 +38,6 @@ function SearchPreview() {
           )}
         </>
       </div>
-
       {products?.length && <CollectionList products={products} />}
     </div>
   );

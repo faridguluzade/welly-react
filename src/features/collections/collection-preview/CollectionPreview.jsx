@@ -2,8 +2,8 @@ import { Fragment } from "react";
 
 import { useCollections } from "../useCollections";
 
-import Heading from "../../../ui/heading/Heading";
 import CollectionList from "../collection-list/CollectionList";
+import Heading from "../../../ui/heading/Heading";
 
 function CollectionPreview() {
   const { collections } = useCollections();

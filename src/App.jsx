@@ -6,8 +6,8 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import AppLayout from "./pages/app-layout/AppLayout";
 import Collections from "./pages/Collections";
 import Search from "./pages/search/Search";
-import Login from "./pages/Account/Login";
-import Signup from "./pages/Account/Signup";
+import Login from "./pages/account/Login";
+import Signup from "./pages/account/Signup";
 
 const queryClient = new QueryClient({
   defaultOptions: {

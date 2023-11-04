@@ -48,7 +48,11 @@ function CartSidebar() {
               <span>{formatCurrency(subtotal)}</span>
             </div>
             <Button>Check out</Button>
-            <Link onClick={toggleSidebar} className="cart-sidebar__link">
+            <Link
+              to="/collections"
+              onClick={toggleSidebar}
+              className="cart-sidebar__link"
+            >
               Continue Shopping
             </Link>
           </div>

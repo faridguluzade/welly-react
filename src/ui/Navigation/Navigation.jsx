@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { useCart } from "../../features/cart/useCart";
 import { useSidebar } from "../../hooks/useSidebar";
 
@@ -20,30 +22,32 @@ function Navigation() {
       <nav className="container nav">
         <ul className="nav__list">
           <li>
-            <a className="nav__link" href="">
+            <Link className="nav__link" to={"/collections"}>
               Shop
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav__link" href="">
+            <Link className="nav__link" to={"/"}>
               Company
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav__link" href="">
+            <Link className="nav__link" to={"/"}>
               Store Locator
-            </a>
+            </Link>
           </li>
         </ul>
 
-        <figure className="nav__logo-box"></figure>
+        <Link to="/" className="nav__logo-box"></Link>
 
         <ul className="nav__future-list">
           <li>
             <SearchBar />
           </li>
           <li>
-            <UserIcon className="nav__user-icon" />
+            <Link to="account/login">
+              <UserIcon className="nav__user-icon" />
+            </Link>
           </li>
           <li className="nav__basket" onClick={toggleSidebar}>
             <BasketIcon className="nav__basket-icon" />
