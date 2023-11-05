@@ -1,12 +1,14 @@
 @import "../../scss/variables";
 
 .input {
+  font-size: 1.9rem;
   border: none;
   background-color: transparent;
-  border-bottom: 2px solid $color-white;
+  border-bottom: 2px solid $color-primary;
   padding-bottom: 0.8rem;
   transition: $main-transition;
   width: 100%;
+  color: #69a49f;
 
   &:focus {
     border-bottom: 2px solid $color-secondary;
@@ -14,6 +16,7 @@
   }
 
   &::placeholder {
+    font-size: 1.9rem;
     color: #69a49f;
     font-family: $font-primary;
   }

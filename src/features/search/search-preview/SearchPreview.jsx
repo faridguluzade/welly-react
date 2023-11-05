@@ -24,7 +24,7 @@ function SearchPreview() {
     );
 
   return (
-    <div className="search-preview">
+    <section className="search-preview">
       <div className="search-preview__content">
         <>
           {empty && <h2>Oops!</h2>}
@@ -38,8 +38,8 @@ function SearchPreview() {
           )}
         </>
       </div>
-      {products?.length && <CollectionList products={products} />}
-    </div>
+      {!empty && <CollectionList products={products} />}
+    </section>
   );
 }
 

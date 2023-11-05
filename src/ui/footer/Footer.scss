@@ -50,12 +50,7 @@
 
   &__mail,
   &__social-link {
-    border-bottom: 2px solid $color-secondary;
-    padding-bottom: 2px;
-
-    &:hover {
-      color: $color-secondary;
-    }
+    @include link-primary;
   }
 
   &__form {
@@ -66,6 +61,11 @@
 
   &__input {
     width: 30rem;
+    border-color: $color-white;
+
+    &::placeholder {
+      font-size: 1.3rem;
+    }
   }
 
   &__btn {

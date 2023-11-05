@@ -1,5 +1,7 @@
+import SignupForm from "../../features/authentication/signup/signup-form/SignupForm";
+
 function Signup() {
-  return <div>SIGNUP</div>;
+  return <SignupForm />;
 }
 
 export default Signup;

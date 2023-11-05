@@ -28,8 +28,9 @@ function App() {
             <Route index element={<Navigate replace to="collections" />} />
             <Route path="collections" element={<Collections />} />
             <Route path="search" element={<Search />} />
-            <Route path="account/login" element={<Login />} />
-            <Route path="account/signup" element={<Signup />} />
+            <Route path="login" element={<Login />} />
+            <Route path="signup" element={<Signup />} />
+            <Route path="*" element={<Collections />} />
           </Route>
         </Routes>
       </BrowserRouter>

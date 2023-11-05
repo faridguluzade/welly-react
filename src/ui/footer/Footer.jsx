@@ -125,5 +125,3 @@ function Footer() {
 }
 
 export default Footer;
-
-// https://www.getwelly.com/cdn/shop/t/114/assets/bcorp.svg

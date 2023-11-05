@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 
 import { useCart } from "../../features/cart/useCart";
@@ -14,7 +15,9 @@ function Navigation() {
   const { toggleSidebar } = useSidebar();
   const { cart } = useCart();
 
-  const quantity = cart?.reduce((acc, cur) => acc + cur.quantity, 0);
+  const quantity = useMemo(() => {
+    return cart?.reduce((acc, cur) => acc + cur.quantity, 0);
+  }, [cart]);
 
   return (
     <>
@@ -45,12 +48,12 @@ function Navigation() {
             <SearchBar />
           </li>
           <li>
-            <Link to="account/login">
+            <Link to="login">
               <UserIcon className="nav__user-icon" />
             </Link>
           </li>
           <li className="nav__basket" onClick={toggleSidebar}>
-            <BasketIcon className="nav__basket-icon" />
+            <BasketIcon fill="#009a87" className="nav__basket-icon" />
             <span className="nav__cart-quantity">{quantity}</span>
           </li>
         </ul>

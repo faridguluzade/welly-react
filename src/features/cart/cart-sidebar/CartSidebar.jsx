@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+import { useMemo } from "react";
+
+import { Link, useNavigate } from "react-router-dom";
 
 import { useSidebar } from "../../../hooks/useSidebar";
 import { useCart } from "../useCart";
@@ -11,13 +13,14 @@ import "./CartSidebar.scss";
 import { formatCurrency } from "../../../utils/helpers";
 
 function CartSidebar() {
+  const navigate = useNavigate();
   const { cart } = useCart();
   const { open, toggleSidebar } = useSidebar();
   const empty = cart?.length === 0;
 
-  const subtotal = cart
-    ?.reduce((acc, cur) => acc + cur.totalPrice, 0)
-    .toFixed(2);
+  const subtotal = useMemo(() => {
+    return cart?.reduce((acc, cur) => acc + cur.totalPrice, 0).toFixed(2);
+  }, [cart]);
 
   return (
     <div className={`cart-sidebar ${open ? "cart-sidebar--active" : ""}`}>
@@ -34,7 +37,9 @@ function CartSidebar() {
             Looks like there’s nothing in your cart yet. <br />
             We can help with that.
           </p>
-          <Button type="outline">Start Shopping</Button>
+          <Button onClick={() => navigate("/")} type="outline">
+            Start Shopping
+          </Button>
         </div>
       )}
 

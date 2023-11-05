@@ -9,3 +9,14 @@
   flex-direction: column;
   gap: $gap;
 }
+
+@mixin link-primary {
+  font-size: 1.3rem;
+  transition: $main-transition;
+  border-bottom: 2px solid $color-secondary;
+  padding-bottom: 2px;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}

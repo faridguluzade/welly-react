@@ -551,24 +551,24 @@
   ],
   "cart": [
     {
-      "name": "Face Saver Acne Blemish Patch Refill Carton",
-      "description": "Hydrocolloid Spot Bandages, 60 count",
-      "image": "\thttps://www.getwelly.com/cdn/shop/files/clear-spot-refill-thumb-cosmo_b79fa986-ce6d-4931-a98b-4fe01c1a6ec4_720x.jpg?v=1686692795",
-      "price": 14.99,
-      "productId": 38,
-      "quantity": 2,
-      "totalPrice": 29.98,
-      "id": 5
+      "name": "Biggie Space Flexible Fabric Bandies",
+      "description": "ASSORTED FLEX FABRIC BANDAGES, 15 COUNT",
+      "image": "https://www.getwelly.com/cdn/shop/products/biggie-bandies-thumb_720x.jpg?v=1674852619",
+      "price": 7.99,
+      "productId": 3,
+      "quantity": 5,
+      "totalPrice": 39.95,
+      "id": 1
     },
     {
-      "name": "Dinosaur Bravery Badges",
-      "description": "Assorted Flex Fabric Bandages",
-      "image": "https://www.getwelly.com/cdn/shop/products/dinosaur_thumb_74270587-ad7e-43ed-989a-3133bb957ecd_720x.jpg?v=1646346830",
-      "price": 7.99,
-      "productId": 14,
-      "quantity": 1,
-      "totalPrice": 7.99,
-      "id": 6
+      "name": "Flexible Fabric Bandage Refill Carton",
+      "description": " ASSORTED SHAPES AND PATTERNS, 100 COUNT",
+      "image": "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-thumb_720x.jpg?v=1670528422",
+      "price": 11.99,
+      "productId": 2,
+      "quantity": 2,
+      "totalPrice": 23.98,
+      "id": 2
     }
   ]
 }
