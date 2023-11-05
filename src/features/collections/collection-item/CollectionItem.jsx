@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useAddCart } from "../../cart/useAddCart";
+import { useAnimate } from "../../../hooks/useAnimate";
 import { formatCurrency } from "../../../utils/helpers";
 
 import { BasketIcon } from "../../../assets/icons/icons";
@@ -7,7 +8,7 @@ import SpinnerMini from "../../../ui/spinner-mini/SpinnerMini";
 
 import "./CollectionItem.scss";
 
-function CollectionItem({ item }) {
+function CollectionItem({ item, animation }) {
   const {
     id,
     name,
@@ -19,6 +20,7 @@ function CollectionItem({ item }) {
     onSale,
   } = item;
 
+  useAnimate();
   const { addItemToCart, status } = useAddCart();
   const isLoading = status === "pending";
 
@@ -35,7 +37,7 @@ function CollectionItem({ item }) {
   }
 
   return (
-    <div className="collection">
+    <div data-aos={animation} className="collection">
       <figure className="collection__photo-box">
         <img
           src={imageFront}

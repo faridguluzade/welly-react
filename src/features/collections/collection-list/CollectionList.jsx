@@ -8,7 +8,7 @@ function CollectionList({ products }) {
   return (
     <div className="container collection-list">
       {products?.map((item) => (
-        <CollectionItem key={item.id} item={item} />
+        <CollectionItem key={item.id} item={item} animation="fade-up" />
       ))}
     </div>
   );
