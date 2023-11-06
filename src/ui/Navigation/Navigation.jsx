@@ -7,12 +7,17 @@ import { useSidebar } from "../../hooks/useSidebar";
 import SearchBar from "../../features/search/search-bar/SearchBar";
 import CartSidebar from "../../features/cart/cart-sidebar/CartSidebar";
 
-import { BasketIcon, UserIcon } from "../../assets/icons/icons";
+import {
+  BasketIcon,
+  UserIcon,
+  HamburgerIcon,
+  CloseIcon,
+} from "../../assets/icons/icons";
 
 import "./Navigation.scss";
 
 function Navigation() {
-  const { toggleSidebar } = useSidebar();
+  const { toggleCart, toggleMobileNav, mobileNavOpen } = useSidebar();
   const { cart } = useCart();
 
   const quantity = useMemo(() => {
@@ -23,28 +28,43 @@ function Navigation() {
     <>
       <CartSidebar />
       <nav className="container nav">
-        <ul className="nav__list">
-          <li>
+        {/* FOR TABLET AND MOBILE DEVICES */}
+        <div
+          className="nav__hamburger"
+          onClick={() => {
+            toggleMobileNav();
+            console.log("salam");
+          }}
+        >
+          <HamburgerIcon />
+        </div>
+
+        <ul className={`nav__list ${mobileNavOpen ? "nav__list--active" : ""}`}>
+          <li onClick={toggleMobileNav}>
             <Link className="nav__link" to={"/collections"}>
               Shop
             </Link>
           </li>
-          <li>
+          <li onClick={toggleMobileNav}>
             <Link className="nav__link" to={"/"}>
               Company
             </Link>
           </li>
-          <li>
+          <li onClick={toggleMobileNav}>
             <Link className="nav__link" to={"/"}>
               Store Locator
             </Link>
+          </li>
+
+          <li className="nav__close" onClick={toggleMobileNav}>
+            <CloseIcon />
           </li>
         </ul>
 
         <Link to="/" className="nav__logo-box"></Link>
 
         <ul className="nav__future-list">
-          <li>
+          <li className="nav__search">
             <SearchBar />
           </li>
           <li>
@@ -52,8 +72,8 @@ function Navigation() {
               <UserIcon className="nav__user-icon" />
             </Link>
           </li>
-          <li className="nav__basket" onClick={toggleSidebar}>
-            <BasketIcon fill="#009a87" className="nav__basket-icon" />
+          <li className="nav__basket" onClick={toggleCart}>
+            <BasketIcon className="nav__basket-icon" />
             <span className="nav__cart-quantity">{quantity}</span>
           </li>
         </ul>

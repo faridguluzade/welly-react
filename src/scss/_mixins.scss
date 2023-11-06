@@ -20,3 +20,10 @@
     color: $color-secondary;
   }
 }
+
+// MEDIA QUERY MANAGER
+@mixin media($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}

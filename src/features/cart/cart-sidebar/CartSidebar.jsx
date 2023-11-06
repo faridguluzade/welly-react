@@ -15,7 +15,7 @@ import { formatCurrency } from "../../../utils/helpers";
 function CartSidebar() {
   const navigate = useNavigate();
   const { cart } = useCart();
-  const { open, toggleSidebar } = useSidebar();
+  const { cartOpen, toggleCart } = useSidebar();
   const empty = cart?.length === 0;
 
   const subtotal = useMemo(() => {
@@ -23,9 +23,9 @@ function CartSidebar() {
   }, [cart]);
 
   return (
-    <div className={`cart-sidebar ${open ? "cart-sidebar--active" : ""}`}>
+    <div className={`cart-sidebar ${cartOpen ? "cart-sidebar--active" : ""}`}>
       <div className="cart-sidebar__header">
-        <span onClick={toggleSidebar}>
+        <span onClick={toggleCart}>
           <ArrowLeftIcon className="cart-sidebar__back" />
         </span>
         <h2 className="cart-sidebar__heading">Your cart</h2>
@@ -37,7 +37,13 @@ function CartSidebar() {
             Looks like there’s nothing in your cart yet. <br />
             We can help with that.
           </p>
-          <Button onClick={() => navigate("/")} type="outline">
+          <Button
+            onClick={() => {
+              navigate("/");
+              toggleCart();
+            }}
+            type="outline"
+          >
             Start Shopping
           </Button>
         </div>
@@ -55,7 +61,7 @@ function CartSidebar() {
             <Button>Check out</Button>
             <Link
               to="/collections"
-              onClick={toggleSidebar}
+              onClick={toggleCart}
               className="cart-sidebar__link"
             >
               Continue Shopping

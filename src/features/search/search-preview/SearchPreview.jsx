@@ -4,6 +4,7 @@ import { useSearch } from "../useSearch";
 
 import CollectionList from "../../collections/collection-list/CollectionList";
 import Button from "../../../ui/button/Button";
+import Spinner from "../../../ui/spinner/Spinner";
 
 import "./SearchPreview.scss";
 
@@ -12,8 +13,10 @@ function SearchPreview() {
   const [searchParams] = useSearchParams();
   const searchValue = searchParams.get("name");
 
-  const { products } = useSearch(searchValue);
+  const { products, isLoading } = useSearch(searchValue);
   const empty = products?.length === 0;
+
+  if (isLoading) return <Spinner />;
 
   if (!searchValue)
     return (

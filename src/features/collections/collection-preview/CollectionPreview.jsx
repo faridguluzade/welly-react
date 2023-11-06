@@ -4,9 +4,12 @@ import { useCollections } from "../useCollections";
 
 import CollectionList from "../collection-list/CollectionList";
 import Heading from "../../../ui/heading/Heading";
+import Spinner from "../../../ui/spinner/Spinner";
 
 function CollectionPreview() {
-  const { collections } = useCollections();
+  const { collections, isLoading } = useCollections();
+
+  if (isLoading) return <Spinner />;
 
   return (
     <section className="collection-preview">

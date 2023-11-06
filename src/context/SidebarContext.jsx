@@ -1,17 +1,41 @@
 /* eslint-disable react/prop-types */
-import { createContext, useState } from "react";
+import { createContext, useReducer } from "react";
 
 export const SidebarContext = createContext();
 
-export const SidebarProvider = ({ children }) => {
-  const [open, setOpen] = useState(false);
+const initialState = {
+  mobileNavOpen: false,
+  cartOpen: false,
+};
 
-  function toggleSidebar() {
-    setOpen((prev) => !prev);
+function sidebarReducer(state, action) {
+  switch (action.type) {
+    case "sidebar/toggleMobileNav":
+      return { ...state, mobileNavOpen: !state.mobileNavOpen };
+    case "sidebar/toggleCart":
+      return { ...state, cartOpen: !state.cartOpen };
+    default:
+      return state;
+  }
+}
+
+export const SidebarProvider = ({ children }) => {
+  const [{ mobileNavOpen, cartOpen }, dispatch] = useReducer(
+    sidebarReducer,
+    initialState
+  );
+
+  function toggleCart() {
+    dispatch({ type: "sidebar/toggleCart" });
   }
 
+  function toggleMobileNav() {
+    dispatch({ type: "sidebar/toggleMobileNav" });
+  }
   return (
-    <SidebarContext.Provider value={{ open, toggleSidebar }}>
+    <SidebarContext.Provider
+      value={{ mobileNavOpen, cartOpen, toggleCart, toggleMobileNav }}
+    >
       {children}
     </SidebarContext.Provider>
   );

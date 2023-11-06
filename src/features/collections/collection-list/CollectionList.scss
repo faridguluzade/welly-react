@@ -1,4 +1,5 @@
 @import "../../../scss/variables";
+@import "../../../scss/mixins";
 
 .collection-list {
   display: grid;
@@ -8,5 +9,17 @@
 
   &:not(:last-child) {
     border-bottom: 2px solid $color-primary;
+  }
+
+  @include media($xl) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include media($md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media($sm) {
+    grid-template-columns: 1fr;
   }
 }
