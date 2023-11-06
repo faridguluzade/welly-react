@@ -3,20 +3,13 @@ import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
-import AppLayout from "./pages/app-layout/AppLayout";
+import AppLayout from "./pages/AppLayout";
 import Collections from "./pages/Collections";
-import Search from "./pages/search/Search";
-import Login from "./pages/account/Login";
-import Signup from "./pages/account/Signup";
+import Search from "./pages/Search";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
-const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      // staleTime: 60 * 1000,
-      staleTime: 0,
-    },
-  },
-});
+const queryClient = new QueryClient();
 
 function App() {
   return (

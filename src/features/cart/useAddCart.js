@@ -37,5 +37,5 @@ export function useAddCart() {
     },
   });
 
-  return { addItemToCart, status };
+  return { addItemToCart, isLoading: status === "pending" };
 }

@@ -579,6 +579,26 @@
       "quantity": 1,
       "totalPrice": 9.99,
       "id": 4
+    },
+    {
+      "name": "Biggie Space Flexible Fabric Bandies",
+      "description": "ASSORTED FLEX FABRIC BANDAGES, 15 COUNT",
+      "image": "https://www.getwelly.com/cdn/shop/products/biggie-bandies-thumb_720x.jpg?v=1674852619",
+      "price": 7.99,
+      "productId": 3,
+      "quantity": 3,
+      "totalPrice": 23.97,
+      "id": 5
+    },
+    {
+      "name": "Flexible Fabric Bandage Refill Carton",
+      "description": " ASSORTED SHAPES AND PATTERNS, 100 COUNT",
+      "image": "https://www.getwelly.com/cdn/shop/products/WLY1111_100countCarton-thumb_720x.jpg?v=1670528422",
+      "price": 11.99,
+      "productId": 2,
+      "quantity": 1,
+      "totalPrice": 11.99,
+      "id": 6
     }
   ]
 }

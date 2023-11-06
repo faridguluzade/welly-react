@@ -29,13 +29,7 @@ function Navigation() {
       <CartSidebar />
       <nav className="container nav">
         {/* FOR TABLET AND MOBILE DEVICES */}
-        <div
-          className="nav__hamburger"
-          onClick={() => {
-            toggleMobileNav();
-            console.log("salam");
-          }}
-        >
+        <div className="nav__hamburger" onClick={toggleMobileNav}>
           <HamburgerIcon />
         </div>
 
@@ -56,6 +50,7 @@ function Navigation() {
             </Link>
           </li>
 
+          {/* FOR TABLET AND MOBILE DEVICES */}
           <li className="nav__close" onClick={toggleMobileNav}>
             <CloseIcon />
           </li>

@@ -21,8 +21,7 @@ function CollectionItem({ item, animation }) {
   } = item;
 
   useAnimate();
-  const { addItemToCart, status } = useAddCart();
-  const isLoading = status === "pending";
+  const { addItemToCart, isLoading } = useAddCart();
 
   function handleAddItem() {
     const price = onSale ? salePrice : regularPrice;
