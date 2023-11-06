@@ -14,7 +14,7 @@ function SearchBar() {
 
     if (!searchValue) return;
 
-    navigate(`/search?name=${searchValue}&type=product`);
+    navigate(`/search?name=${searchValue.trim()}&type=product`);
   }
 
   return (
